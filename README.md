@@ -1,2 +1,2 @@
-# butterflyos
-Butterfly OS is for custom smartwatches and based off of Wasp OS
+# Butterfly OS
+A "fork" of Wasp OS for custom smartwatches
