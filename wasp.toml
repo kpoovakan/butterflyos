@@ -1,0 +1,51 @@
+# The default build for Butterfly OS.
+# At least one watch face must be specified. Quick ring apps will be added in order.
+
+[[app]]
+file = 'apps/jambahasa.py'
+quick_ring = true
+
+[[app]]
+file = 'apps/calculator.py'
+quick_ring = true
+
+[[app]]
+file = 'apps/alarm.py'
+auto_load = true
+quick_ring = true
+
+[[app]]
+file = 'apps/timer.py'
+
+[[app]]
+file = 'apps/stopwatch.py'
+
+[[app]]
+file = 'morse.py'
+
+[[app]]
+file = 'apps/gallery.py'
+
+[[app]]
+file = 'apps/flashlight.py'
+
+[[app]]
+file = 'apps/disa_b_l_e.py'
+
+[[app]]
+file = 'test.py'
+
+[[app]] # If only one watch face is included this app can be removed
+file = 'apps/faces.py'
+auto_load = true
+no_except = true
+
+[[watchface]]
+file = 'watch_faces/clock.py'
+
+[[watchface]] # Requires ClockApp to also be installed
+file = 'watch_faces/week_clock.py'
+default = true
+
+[[watchface]]
+file = 'watch_faces/chrono.py'
